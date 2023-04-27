@@ -1,0 +1,13 @@
+{
+    "Test": {
+        "projectName": "Test",
+        "description": "Agama Test",
+        "type": "community",
+        "author": "mp-agama",
+        "version": "0.0.0",
+        "authorWebsite": "https://github.com/mp-agama/agama",
+        "githubUri": "https://github.com/mp-agama/agama",
+        "license": "MIT",
+        "lastUpdated": "1682601543637"
+    }
+}
