@@ -1,0 +1,10 @@
+Flow com.nixulabs.gluu.Test
+     Basepath ""
+creds = RRF "signup.ftlh" 
+user = Call co.sample#searchAndAdd "uid" creds.username ""
+isBob = Call co.PersonChecker#isBob creds.username
+When isBob is true
+     Log "@error Bob tried to login"
+     Finish false
+Log "@info Not bob.. it is: " creds.username
+Finish creds.username
