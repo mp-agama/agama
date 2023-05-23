@@ -9,7 +9,7 @@ public class sample {
     private static final Logger logger = LoggerFactory.getLogger (sample.class) ;
     private static final UserService userService = CdiUtil.bean(UserService.class);
 
-    public static User searchAndAdd (String attributeName, String value, String newUserName) (
+    public static User searchAndAdd (String attributeName, String value, String newUserName) {
         newUserName = value;
         logger.debug ("Searching user with attribute '{}' = {}", attributeName, value);
         User user = userService.getUserByAttribute(attributeName, value, true);
