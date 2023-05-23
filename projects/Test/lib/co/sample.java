@@ -1,7 +1,7 @@
 package co;
 import io.jans.as.common.model.common.User;
 import io.jans.as.common.service.common.UserService;
-import io.ians.service.cdi.util.Cdiutil;
+import io.jans.service.cdi.util.CdiUtil;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
